@@ -1,14 +1,16 @@
 
 body {
-	text-align: center;
-	
+	width: 75%;
+	margin: auto;
+	max-width: 800px;	
+	color: #444444;
+	font-family: Futura,"Trebuchet MS",Arial,sans-serif;
 }
 
 div.nav {
 	display: table;
-    margin: 0 auto;
-	width: 800px;
 	text-align: left;
+	padding: 10px 0 0 0; 
 }
 
 ul .nav {
@@ -21,11 +23,20 @@ ul .nav {
 	padding: 15px; 
 }
 
+.nav a {
+	text-decoration: none; 
+	color: black;
+}
+
+.nav a:hover{
+	color: #2255aa;
+}
+
 #about{
 	display: table;
     margin: 0 auto;
-	width: 800px;	
 	text-align: left;
+	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif
 }
 
 strong {
@@ -33,7 +44,9 @@ strong {
 }
 
 a {
-	text-decoration: underline:
+	text-decoration: none;
+	color: #2255aa;
+	font-weight: bold;
 }
 
 a :hover{
