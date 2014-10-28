@@ -1,0 +1,43 @@
+
+body {
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: red;
+	background-color: aquamarine;
+}
+
+div.nav {
+	display: table;
+    margin: 0 auto;
+	width: 800px;
+	text-align: left;
+}
+
+ul .nav {
+	list-style: none;
+}
+
+.nav li {
+	font-weight: bold; 
+	display: inline;
+	padding: 15px; 
+}
+
+#about{
+	display: table;
+    margin: 0 auto;
+	width: 800px;	
+	text-align: center;
+}
+
+strong {
+	font-size: 150%;
+}
+
+a {
+	text-decoration: underline:
+}
+
+a :hover{
+	color: blue;
+}
