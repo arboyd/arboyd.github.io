@@ -7,6 +7,13 @@ body {
 	font-family: Futura,"Trebuchet MS",Arial,sans-serif;
 }
 
+#main {
+	min-height: 100%;
+	bottom: 0;
+	position: absolute;
+	max-width: 800px;		
+}
+
 div.nav {
 	display: table;
 	text-align: left;
@@ -36,7 +43,7 @@ ul .nav {
 	display: table;
     margin: 0 auto;
 	text-align: left;
-	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif
+	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
 }
 
 strong {
@@ -51,4 +58,23 @@ a {
 
 a :hover{
 	color: blue;
+}
+#cv {
+	top: 100%;
+	position: absolute;
+	padding-bottom: 100px;
+	max-width: 800px;	
+}
+
+#cv ul {
+	list-style-type: none;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#cv ul ul li{
+	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+	font-weight: normal;
+	padding: 10px 0;
+	font-size: .5em;
 }
