@@ -1,10 +1,19 @@
+/*
+light blue: #226688
+dark blue: #112233
+bright blue: #66aacc
+cranberry: #931D34
+green: #cccc55
 
+
+*/
 body {
 	width: 75%;
 	margin: auto;
 	max-width: 800px;	
-	color: #444444;
+	color: #555;
 	font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+	background-color: #e5f5ff;
 }
 
 #main {
@@ -16,8 +25,6 @@ body {
 
 div.nav {
 	display: table;
-	text-align: justify;
-	padding: 10px 0 0 0; 
 }
 .nav {
 	list-style: none;
@@ -37,18 +44,18 @@ div.nav {
 
 
 .nav a {
-	border: 2px black solid;
+	border: 2px #555 solid;
 	text-decoration: none; 
 	display: block;
 	width: 9em;
-	color: black;
+	color: #555;
 	padding: .75em;
 	margin: .5em;
 }
 
 .nav a:hover {
-	color: #2255aa;	
-	border: #2255aa 2px solid;
+	color: #66aacc;	
+	border: #66aacc 2px solid;
 }
 
 
@@ -56,20 +63,21 @@ div.nav {
 #about{
 	display: table;
     margin: 0 auto;
-	text-align: left;
+	text-align: justify;
 	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
-	
+	background-color: white;
+	padding: 20px; 
 }
 
 h1 {
-	font-size: 200%;
+	font-size: 220%;
 	font-family: 'Alegreya', serif;
 	text-align: center;
 }
 
-#about a {
+a {
 	text-decoration: none;
-	color: #2255aa;
+	color: #123;
 	font-weight: bold;
 }
 
@@ -77,25 +85,40 @@ h1 {
 	margin-bottom: 20px;
 }
 
-a :visited{
-	color: clear;
-}
+
 #cv {
 	top: 100%;
 	position: absolute;
-	padding-bottom: 100px;
+	padding-bottom: 250px;
 	max-width: 800px;	
 }
 
 #cv ul {
 	list-style-type: none;
-	font-size: 1.5em;
 	font-weight: bold;
+	font-family: 'Alegreya', serif;
+}
+
+#cv ul li{
+	font-size: 140%;
+	color: #123;
 }
 
 #cv ul ul li{
 	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
 	font-weight: normal;
+	font-size: 100%;
 	padding: 10px 0;
-	font-size: .5em;
+	color: #555;
+}
+
+.toTop {
+	color: #2255aa;
+	font-weight: bold;
+	font-size: 150%;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #6ac;
 }
