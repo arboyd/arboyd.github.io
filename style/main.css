@@ -11,53 +11,74 @@ body {
 	min-height: 100%;
 	bottom: 0;
 	position: absolute;
-	max-width: 800px;		
+	max-width: 800px;
 }
 
 div.nav {
 	display: table;
-	text-align: left;
+	text-align: justify;
 	padding: 10px 0 0 0; 
 }
-
-ul .nav {
+.nav {
 	list-style: none;
+	margin: 20px auto;
+	
 }
 
 .nav li {
 	font-weight: bold; 
-	display: inline;
-	padding: 15px; 
+	display: inline-block;
 }
+
+
+.nav .navLink {
+	text-align: center;
+}
+
 
 .nav a {
+	border: 2px black solid;
 	text-decoration: none; 
+	display: block;
+	width: 9em;
 	color: black;
+	padding: .75em;
+	margin: .5em;
 }
 
-.nav a:hover{
-	color: #2255aa;
+.nav a:hover {
+	color: #2255aa;	
+	border: #2255aa 2px solid;
 }
+
+
 
 #about{
 	display: table;
     margin: 0 auto;
 	text-align: left;
 	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+	
 }
 
-strong {
-	font-size: 150%;
+h1 {
+	font-size: 200%;
+	font-family: 'Alegreya', serif;
+	text-align: center;
 }
 
-a {
+#about a {
 	text-decoration: none;
 	color: #2255aa;
 	font-weight: bold;
 }
 
-a :hover{
-	color: blue;
+#about img {
+	margin-bottom: 20px;
+}
+
+a :visited{
+	color: clear;
 }
 #cv {
 	top: 100%;
