@@ -11,8 +11,8 @@ body {
 	width: 100%;
 	margin: 0;
 	color: #555;
-	font-family: Futura,"Trebuchet MS",Arial,sans-serif;
-	background-color: #cccccc;
+	font-family: "Ubuntu", Arial, serif;
+	background-color: #d0cccc;
 }
 
 #banner {
@@ -25,7 +25,7 @@ body {
 }
 
 #header {
-	background-color: #A30034;
+	background-color: #696666;
 	margin: 0;
 	padding: 5%;
 }
@@ -36,14 +36,12 @@ body {
 
 
 #about{
-	display: table;
-	text-align: justify;
-	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+
 }
 
 #about p{
     margin: auto;
-	padding: 20px;
+	padding: 50px 0;
 	max-width: 800px;
 }
 
@@ -52,7 +50,7 @@ body {
 	text-align: center;
 	display: block;
 	margin:0;
-	background-color: #881825;
+	background-color: #3f4444;
 	
 }
 
@@ -60,6 +58,7 @@ body {
 	font-weight: bold; 
 	display: inline-block;
 	text-align: center;
+	font-family: 'Droid Serif', Georgia, serif;
 }
 
 
@@ -73,37 +72,41 @@ body {
 
 h1 {
 	font-size: 220%;
-	font-family: 'Alegreya', serif;
+	font-family: 'Droid Serif', Georgia, serif;
 	text-align: center;
 	color: white;
 	padding: 0;
 }
 
 .emph {
-	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+	font-family: 'Droid Serif', Georgia, serif;
 	color: #A30034;
 	font-weight: bold;
-	font-size: 200%;
+	font-size: 300%;
 	text-transform: uppercase;
-	padding: 5px;
+	display: block;
+	padding-bottom: 10px;
 }
 
 a {
 	text-decoration: none;
-	color: #123;
+	color: #333;
 	font-weight: bold;
 }
 
+a:hover{
+	text-decoration: underline;
+}
+
 #cv {
-	top: 100%;
-	position: absolute;
-	padding-bottom: 250px;
+	margin: auto;
+	max-width: 800px;
 }
 
 #cv ul {
 	list-style-type: none;
 	font-weight: bold;
-	font-family: 'Alegreya', serif;
+	font-family: 'Droid Serif', Georgia, serif;
 }
 
 #cv ul li{
@@ -112,16 +115,16 @@ a {
 }
 
 #cv ul ul li{
-	font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+	font-family: 'Droid Serif', Georgia, serif;
 	font-weight: normal;
 	font-size: 100%;
 	padding: 10px 0;
 	color: #555;
 }
 
-.toTop {
-	color: #2255aa;
-	font-weight: bold;
-	font-size: 150%;
-	text-decoration: none;
+p {
+	color: #555;
+	line-height: 1.5em;
+	text-align: justify;
+	padding: 0 25px;
 }
