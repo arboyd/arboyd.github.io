@@ -12,7 +12,7 @@ body {
 	margin: 0;
 	color: #555;
 	font-family: "Ubuntu", Arial, serif;
-	background-color: #d0cccc;
+	background-color: #D1CDCC;
 }
 
 #banner {
@@ -25,7 +25,7 @@ body {
 }
 
 #header {
-	background-color: #696666;
+	background-color: #A89D9B;
 	margin: 0;
 	padding: 5%;
 }
@@ -50,7 +50,7 @@ body {
 	text-align: center;
 	display: block;
 	margin:0;
-	background-color: #3f4444;
+	background-color: #F13769;
 	
 }
 
@@ -58,7 +58,7 @@ body {
 	font-weight: bold; 
 	display: inline-block;
 	text-align: center;
-	font-family: 'Droid Serif', Georgia, serif;
+	font-family: 'Lustria', Georgia, serif;
 }
 
 
@@ -72,20 +72,24 @@ body {
 
 h1 {
 	font-size: 220%;
-	font-family: 'Droid Serif', Georgia, serif;
+	font-family: 'Lustria', Georgia, serif;
 	text-align: center;
 	color: white;
 	padding: 0;
 }
 
 .emph {
-	font-family: 'Droid Serif', Georgia, serif;
-	color: #A30034;
+	font-family: 'Lustria', Georgia, serif;
+	color: #F13769;
 	font-weight: bold;
 	font-size: 300%;
 	text-transform: uppercase;
 	display: block;
 	padding-bottom: 10px;
+}
+
+#cv .emph {
+	padding-top: 20px;
 }
 
 a {
@@ -106,7 +110,7 @@ a:hover{
 #cv ul {
 	list-style-type: none;
 	font-weight: bold;
-	font-family: 'Droid Serif', Georgia, serif;
+	font-family: 'Lustria', Georgia, serif;
 }
 
 #cv ul li{
@@ -115,7 +119,7 @@ a:hover{
 }
 
 #cv ul ul li{
-	font-family: 'Droid Serif', Georgia, serif;
+	font-family: 'Lustria', Georgia, serif;
 	font-weight: normal;
 	font-size: 100%;
 	padding: 10px 0;
