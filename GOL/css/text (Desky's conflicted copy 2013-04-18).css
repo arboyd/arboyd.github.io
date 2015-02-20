@@ -1,0 +1,118 @@
+#tmcf {
+ display:none;
+}
+#preface {
+ display:none;
+}
+
+#s1 {
+ display:none;
+}
+
+#s2 {
+ display:none;
+}
+
+#s3{
+ display:none;
+}
+
+#title{
+ display:none;
+}
+
+#game {
+ display:none;
+}
+
+#note {
+ display:none;
+}
+#refs {
+ display:none;
+}
+
+
+h1 /*Chapter titles*/{
+text-align: center; 
+
+}
+
+h2 /*Section titles*/ {
+text-align: center; 
+}
+
+h3 /*Epigraphs*/ {
+text-align: center; 
+}
+
+h4 /*poem title*/ {
+text-align: center; 
+}
+
+body {
+font-family: Georgia, Times New Roman, Times, serif;
+}
+
+a.n{
+text-decoration: none;
+color: #F68A7A;
+}
+
+p.first{
+
+}
+
+p.bp{
+text-indent: 1.5em;
+text-align: justify; 
+}
+p.hp{
+text-align: justify; 
+}
+
+p.stanza{
+text-align:left;
+
+}
+
+span.dropCap{
+  float:left;
+  font-size:220%;
+  margin-top:-5px;
+}
+
+prop /*single proposition*/{
+
+}
+
+table.syl{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+.2prop /*needs to be indented*/{
+
+}
+
+.2syl{
+	
+}
+
+td.bracket{
+font-size: 2em;	
+text-align: left;
+}
+
+.3syl{
+
+}
+.diagram{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding: 5px;
+}

@@ -1,0 +1,80 @@
+/*COLORS
+Dark red A32
+	shades:
+		-dark: 6A2015
+		-bright: F68A7A
+
+
+Triad colors:
+	green: 96B737
+		-dark: 6C8428
+		-light: cfe1a2
+	maroon:5D1409
+	navy:0C3477
+	bright blue: 2573F6
+
+*/
+a.nav{
+cursor:pointer;
+}
+
+body{
+margin: 0;
+padding: 0;
+border: 0;
+overflow: hidden;
+height: 100%; 
+max-height: 100%; 
+background: #A32;
+}
+
+#framecontent{
+position: absolute;
+top: 0;
+bottom: 0; 
+left: 0;
+width: 250px; /*Width of frame div*/
+height: 100%;
+overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+background: #545454;
+color: black;
+}
+
+#maincontent{
+background: #A32;
+position: fixed;
+top: 0; 
+left: 250px; /*Set left value to WidthOfFrameDiv*/
+right: 0;
+bottom: 0;
+overflow: auto; 
+text-align: center;
+}
+
+#header{
+text-align: left;
+font: 20pt Georgia;
+
+}
+
+#main{
+background: #fff;
+width:650px;
+display: inline-block;
+margin: 0 auto;
+text-align: left;
+padding:75px;
+}
+
+.innertube{
+margin: 15px; /*Margins for inner DIV inside each DIV (to provide padding)*/
+}
+
+* html body{ /*IE6 hack*/
+padding: 0 0 0 200px; /*Set value to (0 0 0 WidthOfFrameDiv)*/
+}
+
+* html #maincontent{ /*IE6 hack*/
+height: 100%; 
+width: 100%; 
+}

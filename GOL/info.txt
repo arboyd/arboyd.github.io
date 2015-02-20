@@ -1,0 +1,13 @@
+Georgia, Times New Roman, Times, serif
+http://stackoverflow.com/questions/10917436/use-a-custom-font-that-a-user-does-not-have-installed
+http://nicewebtype.com/notes/2009/10/30/how-to-use-css-font-face/
+
+http://moorstation.org/typoasis/designers/steffmann/samples/c/cloister.htm
+
+
+SMALL CAPS
+http://kempwire.com/tips/proper-use-and-examples-of-the-small-caps-css-property.html
+
+DROP CAPS
+http://www.smashingmagazine.com/2012/04/03/drop-caps-historical-use-and-current-best-practices/
+
